@@ -1,32 +1,64 @@
-# SimpleStacksApp – SwiftUI Assignment
+# SimpleStacksApp – SwiftUI Layout Assignment
 
-Welcome to your first SwiftUI app project in Xcode! 🎉
+Welcome to your first SwiftUI project in Xcode! 🎉
 
-In this assignment, you will explore how to organize text using vertical and horizontal stacks in SwiftUI. You will start with a basic layout and make small modifications to demonstrate your understanding of how `VStack` and `HStack` work.
-
-## 🔧 Objectives
-
-- Understand the difference between `VStack` and `HStack`
-- Modify the app layout using SwiftUI views
-- Practice using Xcode to build and preview apps
-- Submit your first SwiftUI project via GitHub
+This assignment will help you practice basic layout techniques using `VStack` and `HStack` in SwiftUI. You will start by cloning this working project and then make a few edits to demonstrate your understanding of layout, text formatting, and system images.
 
 ---
 
 ## 📋 Instructions
 
-1. **Fork this repository** to your own GitHub account.
+### 1. **Fork this repository**
+Click the “Fork” button on the top right of this page to copy the project to your own GitHub account.
 
-2. **Open the project** in Xcode by double-clicking the `SimpleStacksApp.xcodeproj` file.
+### 2. **Clone your fork to your Mac**
+Open Terminal and run:
 
-3. **Explore the code** inside `ContentView.swift`. You’ll see a basic layout using `VStack` and `HStack`.
+git clone https://github.com/YOUR-USERNAME/SimpleStacksApp.git
+cd SimpleStacksApp
+open SimpleStacksApp.xcodeproj
 
-4. **Make the following changes:**
-   - Add another line of text inside the `VStack`.
-   - Add a third label to the `HStack`.
-   - Change the text color using `.foregroundColor()`.
-   - Add an `Image(systemName: "star")` anywhere inside your layout.
+Make sure you have Xcode installed and updated!
 
-5. **Build and run the app** on the simulator.
+### 3. **Make the following changes in Xcode**
+Open ContentView.swift and modify the UI:
+    Add another line of Text() inside the VStack
 
-6. **Commit your changes** with a clear commit message:
+    Add a third label or Image(systemName:) inside the HStack
+
+    Use .foregroundColor() to change the color of at least one text item
+
+    Optionally: Add .font(), .padding(), or .background() modifiers
+
+### **4. Run the app**
+Use the simulator (top-left dropdown in Xcode) to build and preview your changes.
+
+### **5. Commit & Push your changes**
+In Terminal or Xcode's Source Control:
+
+git add .
+git commit -m "Updated layout with additional views and styling"
+git push origin main
+
+
+## **Submission Checklist**
+ Forked the repository to your own GitHub account
+
+ Made required changes to the layout in ContentView.swift
+
+ Committed and pushed changes to your GitHub fork
+
+ Shared your GitHub repo link with your instructor via Canvas or Slack
+
+📅 Due Date
+Please complete this assignment and submit your GitHub repo link by Sunday, June 16.
+
+🧠 Tips
+You can use .foregroundColor(.red) to change color
+
+Use Image(systemName: "star") to add an SF Symbol
+
+Use .padding() to add spacing
+
+Preview your layout in the Canvas or Simulator
+
