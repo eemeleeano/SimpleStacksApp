@@ -10,8 +10,10 @@ import SwiftUI
 @main
 struct SimpleStacksAppApp: App {
     var body: some Scene {
+        
         WindowGroup {
+            
             ContentView()
         }
-    }
+    } 
 }
